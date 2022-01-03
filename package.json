@@ -1,0 +1,42 @@
+{
+  "name": "liquidity-base",
+  "version": "0.0.0",
+  "description": "Contains contracts that handles the liquidty and pool generation for the project",
+  "author": "jerrynoah96 <newcreationjerry96@gmail.com>",
+  "homepage": "https://github.com/nahmii/Swapii#readme",
+  "license": "ISC",
+  "main": "lib/liquidty-base.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nahmii/Swapii.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/nahmii/Swapii/issues"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-etherscan": "^2.1.7",
+    "@typechain/hardhat": "^3.0.0",
+    "hardhat": "^2.6.8",
+    "hardhat-gas-reporter": "^1.0.4",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@typechain/ethers-v5": "^8.0.4",
+    "dotenv": "^10.0.0",
+    "eslint": "^8.3.0",
+    "solidity-coverage": "^0.7.17"
+  }
+}
